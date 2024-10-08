@@ -1,0 +1,222 @@
+[
+  {
+    "ContainingType": "usemefreeApi.Controllers.DownloadPackageInfoController",
+    "Method": "AddData",
+    "RelativePath": "api/DownloadPackageInfo/AddData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "info",
+        "Type": "usemefreeLib.Models.DownloadPackageInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.DownloadPackageInfoController",
+    "Method": "EditData",
+    "RelativePath": "api/DownloadPackageInfo/EditData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "info",
+        "Type": "usemefreeLib.Models.DownloadPackageInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.DownloadPackageInfoController",
+    "Method": "GetData",
+    "RelativePath": "api/DownloadPackageInfo/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.DownloadPackageInfoController",
+    "Method": "GetDataPagination",
+    "RelativePath": "api/DownloadPackageInfo/GetDataPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.OperatingSystemController",
+    "Method": "GetData",
+    "RelativePath": "api/OperatingSystem/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "AddData",
+    "RelativePath": "api/SoftDown/AddData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "info",
+        "Type": "usemefreeLib.Models.Info",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "EditData",
+    "RelativePath": "api/SoftDown/EditData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "info",
+        "Type": "usemefreeLib.Models.Info",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "GetData",
+    "RelativePath": "api/SoftDown/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "GetDataPagination",
+    "RelativePath": "api/SoftDown/GetDataPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftwareCategoryController",
+    "Method": "GetData",
+    "RelativePath": "api/SoftwareCategory/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

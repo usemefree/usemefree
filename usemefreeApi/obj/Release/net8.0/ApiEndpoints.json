@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "GetData",
+    "RelativePath": "api/SoftDown/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "usemefreeApi.Controllers.SoftDownController",
+    "Method": "GetDataPagination",
+    "RelativePath": "api/SoftDown/GetDataPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "os",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
