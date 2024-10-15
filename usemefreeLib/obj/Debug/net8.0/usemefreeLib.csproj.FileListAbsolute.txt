@@ -10,3 +10,16 @@ C:\Users\annup\source\repos\usemefree.com\usemefree\usemefreeLib\obj\Debug\net8.
 C:\Users\annup\source\repos\usemefree.com\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.pdb
 C:\Users\annup\source\repos\usemefree.com\usemefree\usemefreeLib\obj\Debug\net8.0\ref\usemefreeLib.dll
 C:\Users\annup\source\repos\usemefree.com\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.csproj.AssemblyReference.cache
+D:\project\usemefreeProj\usemefree\usemefreeLib\bin\Debug\net8.0\usemefreeLib.deps.json
+D:\project\usemefreeProj\usemefree\usemefreeLib\bin\Debug\net8.0\usemefreeLib.dll
+D:\project\usemefreeProj\usemefree\usemefreeLib\bin\Debug\net8.0\usemefreeLib.pdb
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.csproj.AssemblyReference.cache
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.AssemblyInfoInputs.cache
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.AssemblyInfo.cs
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.csproj.CoreCompileInputs.cache
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.sourcelink.json
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.dll
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\refint\usemefreeLib.dll
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\usemefreeLib.pdb
+D:\project\usemefreeProj\usemefree\usemefreeLib\obj\Debug\net8.0\ref\usemefreeLib.dll

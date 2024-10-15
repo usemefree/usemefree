@@ -2123,23 +2123,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\annup\\.nuget\\packages\\": {},
+    "C:\\Users\\usemefree\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\AngularProj\\usemefree\\usemefreeApi\\usemefreeApi.csproj",
+      "projectUniqueName": "D:\\project\\usemefreeProj\\usemefree\\usemefreeApi\\usemefreeApi.csproj",
       "projectName": "usemefreeApi",
-      "projectPath": "D:\\project\\AngularProj\\usemefree\\usemefreeApi\\usemefreeApi.csproj",
-      "packagesPath": "C:\\Users\\annup\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\AngularProj\\usemefree\\usemefreeApi\\obj\\",
+      "projectPath": "D:\\project\\usemefreeProj\\usemefree\\usemefreeApi\\usemefreeApi.csproj",
+      "packagesPath": "C:\\Users\\usemefree\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\usemefreeProj\\usemefree\\usemefreeApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\annup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\usemefree\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2155,8 +2155,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\project\\AngularProj\\usemefree\\usemefreeLib\\usemefreeLib.csproj": {
-              "projectPath": "D:\\project\\AngularProj\\usemefree\\usemefreeLib\\usemefreeLib.csproj"
+            "D:\\project\\usemefreeProj\\usemefree\\usemefreeLib\\usemefreeLib.csproj": {
+              "projectPath": "D:\\project\\usemefreeProj\\usemefree\\usemefreeLib\\usemefreeLib.csproj"
             }
           }
         }
@@ -2204,7 +2204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project\\AngularProj\\usemefree\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\project\\usemefreeProj\\usemefree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|d:\\project\\usemefreeproj\\usemefree\\usemefreejsonfile\\frmshowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|solutionrelative:usemefreejsonfile\\frmshowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|d:\\project\\usemefreeproj\\usemefree\\usemefreejsonfile\\frm_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|solutionrelative:usemefreejsonfile\\frm_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|d:\\project\\usemefreeproj\\usemefree\\usemefreejsonfile\\frmshowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0098D97E-A81D-4F01-A76C-11756953CDC2}|usemefreeJsonFile\\usemefreeJsonFile.csproj|solutionrelative:usemefreejsonfile\\frmshowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_AddEdit.cs [Design]",
+              "DocumentMoniker": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\Frm_AddEdit.cs",
+              "RelativeDocumentMoniker": "usemefreeJsonFile\\Frm_AddEdit.cs",
+              "ToolTip": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\Frm_AddEdit.cs [Design]",
+              "RelativeToolTip": "usemefreeJsonFile\\Frm_AddEdit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:00:45.264Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmShowData.cs",
+              "DocumentMoniker": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\FrmShowData.cs",
+              "RelativeDocumentMoniker": "usemefreeJsonFile\\FrmShowData.cs",
+              "ToolTip": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\FrmShowData.cs",
+              "RelativeToolTip": "usemefreeJsonFile\\FrmShowData.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAA5wG8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:29:39.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmShowData.cs [Design]",
+              "DocumentMoniker": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\FrmShowData.cs",
+              "RelativeDocumentMoniker": "usemefreeJsonFile\\FrmShowData.cs",
+              "ToolTip": "D:\\project\\usemefreeProj\\usemefree\\usemefreeJsonFile\\FrmShowData.cs [Design]",
+              "RelativeToolTip": "usemefreeJsonFile\\FrmShowData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:13:53.824Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

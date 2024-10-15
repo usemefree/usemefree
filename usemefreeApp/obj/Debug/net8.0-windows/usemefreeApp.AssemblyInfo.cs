@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("usemefreeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8341f5b2536bc42e6213f8ead1fb42c9bb1319b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("usemefreeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("usemefreeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
