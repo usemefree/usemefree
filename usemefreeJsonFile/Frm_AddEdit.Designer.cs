@@ -113,6 +113,7 @@
             btn_Save.TabIndex = 16;
             btn_Save.Text = "&Save";
             btn_Save.UseVisualStyleBackColor = true;
+            btn_Save.Click += btn_Save_Click;
             // 
             // lbl_DownloadLink
             // 

@@ -6,11 +6,12 @@ public partial class FrmShowData : Form
     List<PackageInfo> packageInfos = new List<PackageInfo>();
     List<OperatingSystems> operatingSystems;
     List<SoftwareCategory> softwareCategory;
+    int MaxId = 0;
     public FrmShowData()
     {
         InitializeComponent();
-        operatingSystems=getOperatingSystems();
-        softwareCategory=getSoftwareCategory();
+        operatingSystems = getOperatingSystems();
+        softwareCategory = getSoftwareCategory();
     }
 
     private void btnImport_Click(object sender, EventArgs e)
@@ -28,11 +29,7 @@ public partial class FrmShowData : Form
         {
             var jsonString = File.ReadAllText(txt_FilePath.Text);
             packageInfos = JsonConvert.DeserializeObject<List<PackageInfo>>(jsonString);
-            if (packageInfos?.Count > 0)
-            {
-                dgv_Show.AutoGenerateColumns = false;
-                dgv_Show.DataSource = packageInfos;
-            }
+            DataLoad();
         }
         else
         {
@@ -42,7 +39,7 @@ public partial class FrmShowData : Form
 
     private void btn_Export_Click(object sender, EventArgs e)
     {
-
+        WrieJsonFile(false);
     }
 
     private void btnNew_Click(object sender, EventArgs e)
@@ -50,11 +47,18 @@ public partial class FrmShowData : Form
         Frm_AddEdit frm = new Frm_AddEdit();
         frm.operatingSystems = this.operatingSystems;
         frm.softwareCategory = this.softwareCategory;
+        frm.Id = MaxId + 1;
         frm.ShowDialog();
-    }
-
-    private void dgv_Show_MouseClick(object sender, MouseEventArgs e)
-    {
+        if (frm.IsSave)
+        {
+            if (packageInfos.FirstOrDefault(x => x.id == frm.info.id) == null)
+            {
+                packageInfos.Add(frm.info);
+            }
+            WrieJsonFile(true);
+        }
+        DataLoad();
+        
     }
 
     private void dgv_Show_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -64,14 +68,71 @@ public partial class FrmShowData : Form
             var Id = Convert.ToInt32(dgv_Show.Rows[e.RowIndex].Cells[dgv_Id.Index].Value.ToString());
             MessageBox.Show(Id.ToString());
             Frm_AddEdit frm = new Frm_AddEdit();
-            frm.operatingSystems=this.operatingSystems;
-            frm.softwareCategory=this.softwareCategory;
+            frm.operatingSystems = this.operatingSystems;
+            frm.softwareCategory = this.softwareCategory;
             frm.info = packageInfos.FirstOrDefault(x => x.id == Id);
+            frm.Id = Id;
             frm.ShowDialog();
-
+            if (frm.IsSave)
+            {
+                var itemToUpdate = packageInfos.FirstOrDefault(x => x.id == frm.info.id);
+                if (itemToUpdate != null)
+                {
+                    itemToUpdate.isactive = frm.info.isactive;
+                    itemToUpdate.os = frm.info.os;
+                    itemToUpdate.category = frm.info.category;
+                    itemToUpdate.name = frm.info.name;
+                    itemToUpdate.imgsrc = frm.info.imgsrc;
+                    itemToUpdate.summary = frm.info.summary;
+                    itemToUpdate.weblink = frm.info.weblink;
+                    itemToUpdate.downloadlink = frm.info.downloadlink;
+                    itemToUpdate.details = frm.info.details;
+                }
+                WrieJsonFile(true);
+            }
+            DataLoad();
         }
     }
-
+    void DataLoad()
+    {
+        dgv_Show.DataSource = null;
+        if (packageInfos?.Count > 0)
+        {
+            MaxId = packageInfos.Max(x => x.id);
+            dgv_Show.AutoGenerateColumns = false;
+            dgv_Show.DataSource = packageInfos;
+        }
+        else
+        {
+            MessageBox.Show("No record found");
+        }
+    }
+    void WrieJsonFile(bool IsAutoSave = true)
+    {
+        if (!string.IsNullOrWhiteSpace(txt_FilePath.Text))
+        {
+            if (Directory.Exists(Path.GetDirectoryName(txt_FilePath.Text)))
+            {
+                if (IsAutoSave)
+                {
+                    File.WriteAllText(
+                        Path.Combine(Path.GetDirectoryName(txt_FilePath.Text), $"Package_{DateTime.Now.ToString(format: "yyyyMMMdd_hhmmssffffff")}.json"),
+                        JsonConvert.SerializeObject(packageInfos)
+                        );
+                }
+                else
+                {
+                    if (MessageBox.Show($"{Path.GetDirectoryName(txt_FilePath.Text)}\nAre you went to sure...", "Export", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                    {
+                        File.WriteAllText(
+                        Path.Combine(Path.GetDirectoryName(txt_FilePath.Text), $"Package_{DateTime.Now.ToString(format: "yyyyMMMdd_hhmmssffffff")}.json"),
+                        JsonConvert.SerializeObject(packageInfos)
+                        );
+                    }
+                }
+            }
+        }
+    }
     List<OperatingSystems> getOperatingSystems()
     {
         return new List<OperatingSystems> {
