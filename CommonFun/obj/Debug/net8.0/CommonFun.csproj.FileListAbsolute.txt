@@ -1,0 +1,12 @@
+D:\project\usemefreeProj\usemefree\CommonFun\bin\Debug\net8.0\CommonFun.deps.json
+D:\project\usemefreeProj\usemefree\CommonFun\bin\Debug\net8.0\CommonFun.dll
+D:\project\usemefreeProj\usemefree\CommonFun\bin\Debug\net8.0\CommonFun.pdb
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.AssemblyInfoInputs.cache
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.AssemblyInfo.cs
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.csproj.CoreCompileInputs.cache
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.sourcelink.json
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.dll
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\refint\CommonFun.dll
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\CommonFun.pdb
+D:\project\usemefreeProj\usemefree\CommonFun\obj\Debug\net8.0\ref\CommonFun.dll

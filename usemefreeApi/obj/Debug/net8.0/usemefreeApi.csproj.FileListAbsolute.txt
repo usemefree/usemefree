@@ -139,3 +139,7 @@ D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\refint\usemefre
 D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\usemefreeApi.pdb
 D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\usemefreeApi.genruntimeconfig.cache
 D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\ref\usemefreeApi.dll
+D:\project\usemefreeProj\usemefree\usemefreeApi\bin\Debug\net8.0\usemefreeApi.staticwebassets.endpoints.json
+D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\staticwebassets\msbuild.usemefreeApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\project\usemefreeProj\usemefree\usemefreeApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

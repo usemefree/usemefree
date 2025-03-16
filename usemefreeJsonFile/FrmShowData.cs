@@ -11,7 +11,7 @@ public partial class FrmShowData : Form
     {
         InitializeComponent();
         operatingSystems = getOperatingSystems();
-        softwareCategory = getSoftwareCategory();
+        //softwareCategory = getSoftwareCategory();
     }
 
     private void btnImport_Click(object sender, EventArgs e)
@@ -27,9 +27,12 @@ public partial class FrmShowData : Form
 
         if (File.Exists(txt_FilePath.Text))
         {
-            var jsonString = File.ReadAllText(txt_FilePath.Text);
-            packageInfos = JsonConvert.DeserializeObject<List<PackageInfo>>(jsonString);
-            DataLoad();
+            if (CategoryDataLoad(txt_FilePath.Text))
+            {
+                var jsonString = File.ReadAllText(txt_FilePath.Text);
+                packageInfos = JsonConvert.DeserializeObject<List<PackageInfo>>(jsonString);
+                DataLoad();
+            }
         }
         else
         {
@@ -106,6 +109,17 @@ public partial class FrmShowData : Form
         {
             MessageBox.Show("No record found");
         }
+    }
+
+    bool CategoryDataLoad(string filePath)
+    {
+        string fileis = Path.Combine(Path.GetDirectoryName(txt_FilePath.Text), "softwareCategory.json");
+        if (File.Exists(fileis))
+        {
+            var jsonString = File.ReadAllText(fileis);
+            softwareCategory = JsonConvert.DeserializeObject<List<SoftwareCategory>>(jsonString);
+        }
+            return true;
     }
     void WrieJsonFile(bool IsAutoSave = true)
     {

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "AkdFxlEkj5jeeNMVRZxImlEtIMkGBZWxo1/GhiLNKtM=",
+  "Hash": "kDBYwD3G+N78QIceZ0MemtHKNmOMIh8K8sBd2ZTX39c=",
   "Source": "usemefreeApi",
   "BasePath": "_content/usemefreeApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
